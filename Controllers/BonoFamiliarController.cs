@@ -11,9 +11,9 @@ namespace LAB_PROGRA_PC1.Controllers
 {
     public class BonoFamiliarController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<BonoFamiliarController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public BonoFamiliarController(ILogger<BonoFamiliarController> logger)
         {
             _logger = logger;
         }
